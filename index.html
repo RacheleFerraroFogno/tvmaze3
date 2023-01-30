@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TV Shows Dictionary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+
+        <link rel="stylesheet" href="style.css">  
+    
+    <!-- include an external JavaScript file -->
+    <script src="apiexample.js"></script>
+  </head>
+  
+  <body>
+    <section id= "start">
+     <h1 id="title">All TV Shows from A to Z</h1>
+     <input type="text" id="search" onclick="search()"><br>
+     <input type="button" value="Find the show" id="button" onclick="changeButton()">
+    </section>
+      <div id="main">
+      </div>
+      <div id="lightbox">
+        <div id="message">
+        <h3 id=''>The name of the episode is </h3>
+        <p id="name"></p>
+        <h3> It is in season</h3>
+        <p id="season"></p>
+        <h3> This is the description </h3>
+        <p id="description"></p>
+        <h3> And episode</h3>
+        <p id="episode"></p>          
+        </div>
+
+
+      </div>
+    
+     <br><br>
+    
+      
+  
+  </body>
+  
+</html>
